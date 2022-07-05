@@ -1,7 +1,7 @@
 #![no_std]
 #![no_main]
 extern crate alloc;
-use casper_contract::contract_api::{runtime,storage};
+use casper_contract::contract_api::runtime;
 use casper_types::ContractHash;
 
 #[no_mangle]
